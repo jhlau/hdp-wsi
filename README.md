@@ -35,5 +35,6 @@ WSI Output
 * tm_wsi: contains the sense distribution for each instance/document (one document per line). The 
 instances correpond to the original order of the input file (all/<target_word>.lemma).
 * tm_wsi.topics: gives the top-10 terms for the induced topics (one topic per line).
-* topic_worprob: contains the pickle files which contains the word distribution of the induced senses 
+* topic_worprob: contains python pickle files which contains the word distribution of the induced 
+* senses 
 for each lemma.
