@@ -38,3 +38,17 @@ instances correpond to the original order of the input file (all/<target_word>.l
 * topic_worprob: contains python pickle files which contains the word distribution of the induced 
 * senses 
 for each lemma.
+
+Publications
+------------
+#### Original Paper
+* Jey Han Lau, Paul Cook, Diana McCarthy, David Newman and Timothy Baldwin (2012). 
+Word Sense Induction for Novel Sense Detection. In Proceedings of the 13th Conference of the European Chapter 
+of the Association for Computational Linguistics (EACL 2012), Avignon, France, pp 591—601.
+
+#### Other Related Papers
+* Jey Han Lau, Paul Cook, and Timothy Baldwin (to appear). unimelb: Topic Modelling-based Word Sense Induction. 
+In Proceedings of the 7th International Workshop on Semantic Evaluation (SemEval 2013).
+* Jey Han Lau, Paul Cook, and Timothy Baldwin (to appear). unimelb: Topic Modelling-based Word Sense Induction 
+for Web Snippet Clustering. In Proceedings of the 7th International Workshop on Semantic Evaluation (SemEval 2013).
+
