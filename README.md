@@ -1,13 +1,13 @@
 This package contains the scripts and various python tools for running HDP to induce word senses.
 
-Directory structure and files
+Directory Structure and Files
 =============================
 * run_wsi.sh: the main script for driving the WSI system.
 * topicmodelling: contains various document preprocessing tools and the HDP program.
 * wsi_input: contains the input for the WSI system.
 * wsi_output: contains the output for the WSI system.
 
-Running the system
+Running the System
 ==================
 * Generate the input files for the system (format described below).
 * Fix the GSL library path for compiling hdp (in topicmodelling/hdp/Makefile)
