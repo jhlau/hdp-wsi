@@ -10,33 +10,32 @@ Directory Structure and Files
 Running the System
 ==================
 * Generate the input files for the system (format described below).
-* Fix the GSL library path for compiling hdp (in topicmodelling/hdp/Makefile)
+* Fix the GSL library path for compiling hdp (in topicmodelling/hdp/Makefile).
 * Set up HDP parameters (such as the gamma and alpha paramters, stopwords); these settings are in the 
-topic model script (topicmodelling/run_topicmodel.sh)
-* Set up WSI parameters; these settings are in the WSI script (run_wsi.sh)
-* Execute run_wsi.sh
+topic model script (topicmodelling/run_topicmodel.sh).
+* Set up WSI parameters; these settings are in the WSI script (run_wsi.sh).
+* Execute run_wsi.sh.
 
 WSI Input Format
 ================
 * num_test_instances.all.txt: contains the number of TEST instances/documents for the WSI system, one 
 line per lemma.
-* all/<target_word>.lemma: contains the instances/documents for the WSI system, one file per lemma and 
+* all/target_word.lemma: contains the instances/documents for the WSI system, one file per lemma and 
 one line per instance/document.
 
 Note that the total number of instances may be greater than the TEST instances - the test instances 
 are instances of interest that will be evaluated. The remaining instances are additional/training 
 instances for the topic model to produce higher quality senses.  The test instances should ALWAYS be 
-put at the beginning of the input file (all/<target_word>.lemma), i.e. if there are 100 test 
+put at the beginning of the input file (all/target_word.lemma), i.e. if there are 100 test 
 instances and 200 additional/training instances, the first 100 lines of the input file should 
 contain the 100 test instances, and the next 200 lines are the additional/training instances.
 
 WSI Output
 ==========
 * tm_wsi: contains the sense distribution for each instance/document (one document per line). The 
-instances correpond to the original order of the input file (all/<target_word>.lemma).
+instances correpond to the original order of the input file (all/target_word.lemma).
 * tm_wsi.topics: gives the top-10 terms for the induced topics (one topic per line).
-* topic_worprob: contains python pickle files which contains the word distribution of the induced 
-* senses 
+* topic_worprob: contains python pickle files which contains the word distribution of the induced senses.
 for each lemma.
 
 Publications
