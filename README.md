@@ -38,6 +38,10 @@ instances correpond to the original order of the input file (all/target_word.lem
 * topic_worprob: contains python pickle files which contains the word distribution of the induced senses.
 for each lemma.
 
+Licensing
+=========
+* MIT license - http://opensource.org/licenses/MIT.
+
 Publications
 ------------
 #### Original Paper
