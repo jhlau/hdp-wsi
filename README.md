@@ -1,4 +1,4 @@
-This directory contains the scripts and various python tools for running HDP to induce word senses.
+This package contains the scripts and various python tools for running HDP to induce word senses.
 
 Directory structure and files
 =============================
